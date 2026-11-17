@@ -76,12 +76,10 @@ header {
 
 .navbar nav ul li a:focus {
     color: #C97A63;
-    border-bottom: 3px solid #C97A63;
 }
 
 .navbar nav ul li a:hover {
     color: #C97A63;
-    border-bottom: 3px solid #C97A63;
 }
 
 .navbar p {

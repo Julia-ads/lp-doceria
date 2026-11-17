@@ -1,0 +1,43 @@
+.depoimentos h3{
+    padding-bottom: 60px;
+}
+
+.depoimentos-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.depoimentos-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 70px 70px 70px 0;
+    gap: 0px;
+    padding: 0 40px;
+}
+
+.depoimentos-cards .card img {
+    width: 80px;
+    position: relative;
+    bottom: 30px;
+}
+
+.depoimentos-cards .card p {
+    color: #7A675A;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.depoimentos-cards .card #name {
+   color: #7A675A;
+   text-align: start;
+   font-weight: 800;
+   font-style: normal;
+}
+
+
